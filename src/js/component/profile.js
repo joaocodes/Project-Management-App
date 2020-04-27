@@ -11,9 +11,11 @@ import { LatestTasksDone } from "./latestDoneChart";
 
 const useStyles = makeStyles({
 	root: {
-		maxWidth: "20%",
+		maxWidth: "200px",
 		float: "left",
-		margin: "auto"
+		margin: "auto",
+		textAlign: "center",
+		padding: "20px"
 	},
 	statistics: {
 		maxWidth: "100%",
@@ -21,11 +23,11 @@ const useStyles = makeStyles({
 	},
 	images: {
 		borderRadius: "50%",
-		width: "300px",
-		height: "300px",
-		position: "relative",
-		justifyContent: "center",
-		left: "25px"
+		width: "150px",
+		height: "150px",
+		objectFit: "cover",
+		margin: "0 auto 20px auto",
+		display: "block"
 	}
 });
 
