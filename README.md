@@ -1,5 +1,7 @@
 Final project for 4Geeks Acedemy. Built with Reactjs⚛️, Flux, Python🐍, SQLAlchemy, Flask
 
+Site demo for live previewing and testing: https://project-management-app.now.sh/
+
 This project is a project management progressive web app. Similiar to monday.com. 
 -Allows you to create tasks, assign the task to different team members, set twilio text reminders when a task is close to due date, & more.
 
