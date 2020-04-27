@@ -8,15 +8,24 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { LatestTasksDone } from "./latestDoneChart";
+
 const useStyles = makeStyles({
 	root: {
-		maxWidth: "30%",
+		maxWidth: "20%",
 		float: "left",
-		marginRight: "3%"
+		margin: "auto"
 	},
 	statistics: {
 		maxWidth: "100%",
 		marginLeft: "3%"
+	},
+	images: {
+		borderRadius: "50%",
+		width: "300px",
+		height: "300px",
+		position: "relative",
+		justifyContent: "center",
+		left: "25px"
 	}
 });
 
@@ -27,6 +36,7 @@ export const Profile = () => {
 			<Card className={classes.root}>
 				<CardActionArea>
 					<CardMedia
+						className={classes.images}
 						component="img"
 						alt="Profile Image"
 						height="290"
